@@ -1,0 +1,5 @@
+<input type="text" [(ngModel)] = "userName" (input) = isAllowAddUserName()>
+
+<p> {{userName}}</p>
+
+<button class="btn btn-primary" [disabled] = "!allowToAddUser">Add UserName</button>
