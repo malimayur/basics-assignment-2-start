@@ -10,7 +10,7 @@ export class ProfileComponent implements OnInit {
   allowToAddUser = true;
   constructor() {
   }
-  ngOnInit() {
+    ngOnInit() {
   }
 
   isAllowAddUserName() {
