@@ -5,11 +5,13 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
+import { AssigmentdirComponent } from './assigmentdir/assigmentdir.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ProfileComponent
+    ProfileComponent,
+    AssigmentdirComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,12 @@
+<h4>I'm in the Assignment 3 Component!</h4>
+<ol>
+  <li>Add a buton which says "Display details"</li>
+  <li>Add a paragraph with any contents of your choice</li>
+  <li>Toggle the displaying of that paragraph with the button created in first step</li>
+  <li>Log all button clicks in array and output that array below the paragraph</li>
+  <li>Startting at 5th log item give all future log item background color (via ngStyle) and white color(via ngClass)</li>
+</ol>
+<hr>
+<button class="btn btn-primary" (click) = "togglePara()"> Display Deails </button>
+<p *ngIf=isTextDisplay>Toggle this text: "Test Toggle with button"</p>
+<p *ngFor="let cnt of logCountArray"> {{cnt}}</p>
