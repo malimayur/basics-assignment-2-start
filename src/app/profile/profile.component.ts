@@ -15,7 +15,12 @@ export class ProfileComponent implements OnInit {
 
   isAllowAddUserName() {
     if (this.userName !== '') {
-      this.allowToAddUser = false;
+      this.allowToAddUser = true;
+    } else {
+    this.allowToAddUser = false;
     }
+  }
+  reset(){
+  this.userName = '';
   }
 }
